@@ -1,0 +1,110 @@
+	body {
+        background-color: black;
+        color: white;
+    }
+    #codeArea {
+        background-color: white;
+        color: black;
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        z-index: 2;
+		font: 14px monospace;
+    }
+    #output {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        z-index: 1;
+    }
+	#runButton {
+	    top: 10px;
+		right: 10px;
+		position: fixed;
+		background-color: green;
+		color: white;
+		z-index: 2;
+		font-family: Arial, sans-serif;
+	}
+    #toggleButton {
+        position: fixed;
+        top: 10px;
+        right: 65px;
+        background-color: white;
+        color: black;
+        z-index: 2
+        transition: background-color 0.1s;
+		font-family: Times New Roman, sans-serif;
+		height: 22px;
+    }
+    #toggleButton:hover {
+        background-color: blue;
+    }
+	#toggleButton:active {
+	    background-color: white;
+	}
+    #clearButton {
+        position: fixed;
+        top: 10px;
+        right: 127.5px;
+        background-color: white;
+        color: black;
+        z-index: 2
+        transition: background-color 0.1s;
+        font-family: Times New Roman, sans-serif;
+		height: 22px;
+    }
+    #clearButton:hover {
+        background-color: red;
+    }
+	#clearButton:active {
+	    background-color: white;
+	}
+    #buyMeACoffeeBtn {
+        background-color: blue;
+        position: fixed;
+        color: black;
+        bottom: 50px;
+        right: 10px;
+        z-index: 2;
+        transition: background-color 1.0s;
+		font-family: Lucida Console;
+    }
+    #buyMeACoffeeBtn:hover {
+        background-color: red;
+    }
+    #info {
+        right: 10px;
+        bottom: 10px;
+        position: fixed;
+        z-index: 2;
+		object-align: right;
+    }
+    #info p {
+	    position: fixed;
+        font: 14px monospace;
+		right: 10px;
+		bottom: 20px;
+    }
+    #info a {
+        text-decoration: none;
+		color: red;
+    }
+	#info h6 {
+	    bottom: 0px;
+		right: 10px;
+		position: fixed;
+	}
+    noscript a {
+        text-decoration: none;
+    }
+    #uploadButton {
+		position: fixed;
+        top: 35px;
+        right: 10px;
+        position: fixed;
+		z-index: 2;
+		background-color: white;
+		color: black;
+		font-family: Courier, monospace;
+	}
