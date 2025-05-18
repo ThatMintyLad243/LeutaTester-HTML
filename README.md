@@ -7,4 +7,8 @@ In the UI, there's a text area, type your code, then click "Run".
 # Problems and issues
 The JavaScript code is unable to handle IDs properly, elements must be classified with classes
 # Do not use this software for AI testing.
-JavaScript must be enabled
+------------------------------------------
+# Requirements
+At least 50 MB of RAM
+At least 42 KB of Storage
+Extract before use
