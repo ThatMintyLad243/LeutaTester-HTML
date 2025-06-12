@@ -21,68 +21,41 @@
 	    top: 10px;
 		right: 10px;
 		position: fixed;
-		background-color: green;
-		color: white;
-		z-index: 2;
-		font-family: Arial, sans-serif;
+		z-index: 2;	
 	}
     #toggleButton {
         position: fixed;
         top: 10px;
-        right: 65px;
-        background-color: white;
+		right: 95px;
+        float: right;
         color: black;
-        z-index: 2
-        transition: background-color 0.1s;
-		font-family: Times New Roman, sans-serif;
+        z-index: 2;
 		height: 22px;
     }
-    #toggleButton:hover {
-        background-color: blue;
-    }
-	#toggleButton:active {
-	    background-color: white;
-	}
     #clearButton {
         position: fixed;
         top: 10px;
-        right: 127.5px;
-        background-color: white;
+		right: 180px;
+        float: right;
         color: black;
-        z-index: 2
-        transition: background-color 0.1s;
-        font-family: Times New Roman, sans-serif;
+        z-index: 2;
 		height: 22px;
     }
-    #clearButton:hover {
-        background-color: red;
-    }
-	#clearButton:active {
-	    background-color: white;
-	}
     #buyMeACoffeeBtn {
-        background-color: blue;
         position: fixed;
         color: black;
         bottom: 50px;
         right: 10px;
-        z-index: 2;
-        transition: background-color 1.0s;
-		font-family: Lucida Console;
-    }
-    #buyMeACoffeeBtn:hover {
-        background-color: red;
+        z-index: 2,
     }
     #info {
         right: 10px;
         bottom: 10px;
         position: fixed;
         z-index: 2;
-		object-align: right;
     }
     #info p {
 	    position: fixed;
-        font: 14px monospace;
 		right: 10px;
 		bottom: 20px;
     }
@@ -98,13 +71,8 @@
     noscript a {
         text-decoration: none;
     }
-    #uploadButton {
+	#uploadButton {
 		position: fixed;
-        top: 35px;
-        right: 10px;
-        position: fixed;
-		z-index: 2;
-		background-color: white;
-		color: black;
-		font-family: Courier, monospace;
+		top: 45px;
+		right: 10px;
 	}
