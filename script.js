@@ -28,7 +28,7 @@ function myFunction() {
 }
 	
 function aiFunction() {
-	alert("This is glitchy af");
+	prompt("Who are you?, "User");
 	console.log("stocazzo")
 }
 	
