@@ -20,13 +20,15 @@ document.getElementById('clearButton').addEventListener('click', function() {
 	document.getElementById('output').innerHTML = '';
 });
 
+// Non va una beata minchia, porca puttana la troia
+
 function myFunction() {
-	location.replace('about:blank')
-	alert('I am banishing you to the under construction shadow realm');
+	location.replace('https://youtu.be/O3349-GRjhQ?si=i2HnXb-qPRqFGnRm')
+	alert('GO F*UCK YOURSELF');
 }
 	
 function aiFunction() {
-	alert("IDs may interfer with UI elements");
-	console.log("LeutaTester Emulator was imported successfully. Emulation started")
+	alert("This is glitchy af");
+	console.log("stocazzo")
 }
 	
