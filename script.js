@@ -28,7 +28,7 @@ function myFunction() {
 }
 	
 function aiFunction() {
-	prompt("Who are you?, "User")
+	prompt("Who are you?", "User")
 	console.log("stocazzo");
 }
 	
