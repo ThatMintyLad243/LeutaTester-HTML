@@ -23,11 +23,12 @@ document.getElementById('clearButton').addEventListener('click', function() {
 // Non va una beata minchia, porca puttana la troia
 
 function myFunction() {
-	location.replace('https://youtu.be/O3349-GRjhQ?si=i2HnXb-qPRqFGnRm')
-	alert('GO F*UCK YOURSELF');
+	location.replace('https://github.com/ThatMintyLad243/LeutaTester-HTML')
+	alert("It's under-construction");
 }
 	
 function aiFunction() {
-	console.log("stocazzo");
+	alert("This is very trash, wait at least ￼￼￼ months")
+	console.log("The JavaScript is successfully imported");
 }
 	
