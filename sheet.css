@@ -78,5 +78,7 @@
 	}
 #uiChange {
 	position: fixed;
-	right: 10px
+	top: 72px;
+	right: 10px;
+	z-index: 2;
 }
