@@ -76,6 +76,7 @@
 		position: fixed;
 		top: 45px;
 		right: 10px;
+		z-index: 2;
 	}
 #uiChange {
 	position: fixed;
