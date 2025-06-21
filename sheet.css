@@ -8,6 +8,7 @@
 		font: 14px monospace;
     }
     #output {
+	border-width: 0px;
 	background-color: white;
 	color: black;
         position: absolute;
