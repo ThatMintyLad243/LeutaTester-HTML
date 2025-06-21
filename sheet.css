@@ -76,3 +76,7 @@
 		top: 45px;
 		right: 10px;
 	}
+#uiChange {
+	position: fixed;
+	right: 10px
+}
