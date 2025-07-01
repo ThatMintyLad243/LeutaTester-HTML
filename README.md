@@ -5,9 +5,9 @@
 In the UI, there's a text area, type your code, then click **Run**.
 **Toggle** makes the text area invisible
 **Clear** resets output and text area
-# Problems and issues
+# Problems, issues and warning
 * The JavaScript code is unable to run anything for now, instead of changing the inner text, it changes the URL using Base64
-* # Do not use this software for AI testing.
+* Do not use this software for AI testing.
 ------------------------------------------
 # Requirements
 * At least 50 KB of RAM, if you use Chrome 50 MB :)
