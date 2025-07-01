@@ -1,12 +1,12 @@
 # LeutaTester by ThatMintyLad
 ## Early Access - Under Construction
-* Trash HTML Tester for browsers like **Chrome**
+* Trash HTML Tester for browsers 
 # How to use
 In the UI, there's a text area, type your code, then click **Run**.
 **Toggle** makes the text area invisible
 **Clear** resets output and text area
 # Problems and issues
-* The JavaScript code is unable to run anything that has a class... What if I store the output as an "iFrame" 
+* The JavaScript code is unable to run anything for now, instead of changing the inner text, it changes the URL using Base64
 * # Do not use this software for AI testing.
 ------------------------------------------
 # Requirements
@@ -20,5 +20,3 @@ In the UI, there's a text area, type your code, then click **Run**.
 * [98.css](https://jdan.github.io/98.css/)
 * [XP.css](https://botoxparty.github.io/XP.css/)
 * [7.css](https://khang-nd.github.io/7.css/)
-=======================================================
-* -- #leukemianetanyahu --
