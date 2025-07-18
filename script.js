@@ -42,7 +42,7 @@ button.addEventListener('click', () => {
     clickCount++;
     switch (clickCount) {
         case 1:
-            element.setAttribute('href', 'https://unpkg.com/xp.css@/dist/98.css');
+            element.setAttribute('href', 'https://unpkg.com/xp.css');
             console.log('Primo click');
             break;
         case 2:
