@@ -4,9 +4,9 @@
 # How to use
 In the UI, there's a text area, type your code, then click **Run**.
 **Toggle** makes the text area invisible
-**Clear** resets output and text area
+**Clear** resets the output and the text area
 # Problems, issues and warning
-* The JavaScript code is unable to run anything for now, instead of changing the inner text, it changes the URL using Base64
+* The JavaScript code is unable to run anything for now, I didn't do anything for 2 months and probably for at least 3 more.
 * Do not use this software for AI testing.
 ------------------------------------------
 # Requirements
