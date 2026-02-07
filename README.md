@@ -2,8 +2,9 @@
 ## Early Access - Under Construction
 * Trash HTML Tester for browsers
 ------------
-###Dev note
+### Dev note
 * Make the script convert the text area content in Base64 and make it a URL
+----------
 # How to use
 In the UI, there's a text area, type your code, then click **Run**.
 **Toggle** makes the text area invisible
