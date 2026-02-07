@@ -10,7 +10,7 @@ In the UI, there's a text area, type your code, then click **Run**.
 **Toggle** makes the text area invisible
 **Clear** resets the output and the text area
 # Problems, issues and warning
-* The JavaScript code is unable to run anything for now, I didn't do anything for 2 months and probably for at least 3 more.
+* The JavaScript code is unable to run anything for now, I didn't do anything for 2 months and probably for at least 3 more. (EDIT: It's been almost a year and I still haven't found a solution, this fucking project is running from 2022)
 * Only ASCII is supported until I find a way to make sure the codec is UTF-8
 * Do not use this software for AI testing.
 ------------------------------------------
