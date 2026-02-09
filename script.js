@@ -1,6 +1,6 @@
 document.getElementById('runButton').addEventListener('click', function() {
     var code = document.getElementById('codeArea').value;
-    document.getElementById('output').innerHTML = code;
+    document.getElementById('output').src = "data:text/html;base64," + btoa(code);
 });
 	
 document.getElementById('toggleButton').addEventListener('click', function() {
@@ -60,4 +60,5 @@ button.addEventListener('click', () => {
 });
 
 /* If that motherfucking Kevin-looking bastard continues to piss me off, I'm resorting to violence */
+
 
