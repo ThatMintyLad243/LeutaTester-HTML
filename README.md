@@ -1,19 +1,15 @@
-# LeutaTester by ThatMintyLad
+# LeutaTester
 ###### Early Access - Under Construction
-* Trash HTML Tester for browsers
-------------
-### Dev note
-* Make the script convert the text area content in Base64 and make it a URL
-----------
+* HTML Tester for browsers 
+---
 # How to use
 In the UI, there's a text area, type your code, then click **Run**.
 **Toggle** makes the text area invisible
 **Clear** resets the output and the text area
-# Problems, issues and warning
-* The JavaScript code is unable to run anything for now, I didn't do anything for 2 months and probably for at least 3 more. (EDIT: It's been almost a year and I still haven't found a solution, this fucking project is running from 2022)
-* Only ASCII is supported until I find a way to make sure the codec is UTF-8
-* Do not use this software for AI testing.
-------------------------------------------
+---
+# How does it work?
+* When you press **Run**, what's written in the textbox (HTML, CSS and JS) will be converted to Base64 and it gets set as the 'src' attribute of an iframe that takes the whole screen (before the Base64 data it adds "data:text/html;base64,")
+---
 ## Libraries used
 * [98.css](https://jdan.github.io/98.css/)
 * [XP.css](https://botoxparty.github.io/XP.css/)
