@@ -8,7 +8,8 @@
 * **Clear** resets the output and the text area
 ---
 # How does it work?
-* When you press **Run**, what's written in the textbox (HTML, CSS and JS) will be converted to Base64 and it gets set as the 'src' attribute of an iframe that takes the whole screen (before the Base64 data it adds "data:text/html;base64,")
+* When you press **Run**, what's written in the textbox (HTML, CSS and JS) will be converted to Base64 and it gets set as the 'src' attribute of an iframe that takes the whole screen (before the Base64 data it adds "data:text/html;base64,".
+* Why would you do this question in the first place for a shitty project.
 ---
 ## Libraries used
 * [98.css](https://jdan.github.io/98.css/)
