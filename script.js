@@ -13,8 +13,6 @@ document.getElementById('toggleButton').addEventListener('click', function() {
 	}
 });
 
-/* This functions are for toggle, clearing the emulator and starting emulation */
-
 document.getElementById('clearButton').addEventListener('click', function() {
     document.getElementById('codeArea').value = '';
 	document.getElementById('output').innerHTML = '';
@@ -22,14 +20,9 @@ document.getElementById('clearButton').addEventListener('click', function() {
 
 // Non va una beata minchia, porca puttana la troia
 
-function myFunction() {
+function repFunction() {
 	location.replace('https://github.com/ThatMintyLad243/LeutaTester-HTML')
 	alert("It's under-construction");
-}
-	
-function aiFunction() {
-	alert("This is very trash, wait at least ￼￼￼ months")
-	console.log("The JavaScript is successfully imported");
 }
 
 // If you don't like the look
@@ -51,11 +44,7 @@ button.addEventListener('click', () => {
             element.setAttribute('href', 'https://unpkg.com/98.css');
             break;
         default:
-            clickCount = 1;
+            clickCount = 0;
             break;
     }
 });
-
-/* If that motherfucking Kevin-looking bastard continues to piss me off, I'm resorting to violence */
-
-
