@@ -43,18 +43,15 @@ button.addEventListener('click', () => {
     switch (clickCount) {
         case 1:
             element.setAttribute('href', 'https://unpkg.com/xp.css');
-            console.log('Primo click');
             break;
         case 2:
             element.setAttribute('href', 'https://unpkg.com/7.css');
-            console.log('Secondo click');
             break;
         case 3:
             element.setAttribute('href', 'https://unpkg.com/98.css');
-            console.log('Terzo click');
             break;
         default:
-            alert('Fuck you');
+            clickCount = 1;
             break;
     }
 });
