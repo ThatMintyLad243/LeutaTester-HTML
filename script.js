@@ -18,8 +18,6 @@ document.getElementById('clearButton').addEventListener('click', function() {
 	document.getElementById('output').innerHTML = '';
 });
 
-// Non va una beata minchia, porca puttana la troia
-
 function repFunction() {
 	location.replace('https://github.com/ThatMintyLad243/LeutaTester-HTML')
 	alert("It's under-construction");
@@ -43,6 +41,9 @@ button.addEventListener('click', () => {
         case 3:
             element.setAttribute('href', 'https://unpkg.com/98.css');
             break;
+		case 4:
+			clickCount = 1;
+			break;
         default:
             clickCount = 0;
             break;
